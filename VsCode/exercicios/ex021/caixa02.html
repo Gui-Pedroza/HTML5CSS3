@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article>aside {
+            background-color: grey;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;            
+        }
+
+        nav {
+            box-shadow: 3px 3px 6px 4px rgba(0, 0, 0, 0.608);
+            background-color: rgb(114, 114, 114);
+        }
+
+        nav>a {
+            color: whitesmoke;
+            margin-right: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        footer>p {
+            margin: 0px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Esportes</h2>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae iste vitae accusantium
+                    temporibus vero. Sapiente labore minima praesentium alias distinctio expedita ratione nisi, officia
+                    iste reprehenderit eaque cum totam officiis!</p>
+                <aside>
+                    Artigo escrito por Zezão
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Guilherme Pedroza</p>
+    </footer>
+</body>
+
+</html>

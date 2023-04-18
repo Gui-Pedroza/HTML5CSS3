@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatacoes</title>
+</head>
+<body>
+    <h1>Outras formatacoes</h1>
+    <h2>Código fonte</h2>
+    <p>Verifique um trecho de código em Java:</p>
+    <pre>
+        <code>
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+            String lines = br.readLine();
+            while (lines != null) {
+                String[] employeeData = lines.split(",");
+                list.add(new Employee(employeeData[0], Double.parseDouble(employeeData[1])));
+                lines = br.readLine();
+            }</code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Como diria fulano: <blockquote cite="fonte do bra bra bra">        
+    </blockquote>bra bra bra bra</blockquote></p>
+    <p>Estou estudando <abbr title="Hyper Text Markable Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+</body>
+</html>
