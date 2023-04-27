@@ -1,2 +1,2 @@
 # HTML5CSS3
- Curso em Vídeo do Gsutavo Guanabara
+ Curso em Vídeo do Gustavo Guanabara
